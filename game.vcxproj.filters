@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="character.cpp" />
+    <ClCompile Include="gameConfig.cpp" />
+    <ClCompile Include="host\FolderWatcher-win.cpp">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\GlutHost.cpp">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\GlutHostMain.cpp">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\ParticlePresets.cpp">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="params.cpp" />
+    <ClCompile Include="steering\seekSteering.cpp">
+      <Filter>steering</Filter>
+    </ClCompile>
+    <ClCompile Include="steering\fleeSteering.cpp">
+      <Filter>steering</Filter>
+    </ClCompile>
+    <ClCompile Include="steering\arriveSteering.cpp">
+      <Filter>steering</Filter>
+    </ClCompile>
+    <ClCompile Include="steering\alignSteering.cpp">
+      <Filter>steering</Filter>
+    </ClCompile>
+    <ClCompile Include="steering\alignToMovementSteering.cpp">
+      <Filter>steering</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp" />
+    <ClCompile Include="steering\pursueSteering.cpp">
+      <Filter>steering</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="character.h" />
+    <ClInclude Include="gameConfig.h" />
+    <ClInclude Include="host\FolderWatcher-win.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\GlutHost.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\ParticlePresets.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="params.h" />
+    <ClInclude Include="steering\seekSteering.h">
+      <Filter>steering</Filter>
+    </ClInclude>
+    <ClInclude Include="steering\iSteering.h">
+      <Filter>steering</Filter>
+    </ClInclude>
+    <ClInclude Include="steering\fleeSteering.h">
+      <Filter>steering</Filter>
+    </ClInclude>
+    <ClInclude Include="steering\arriveSteering.h">
+      <Filter>steering</Filter>
+    </ClInclude>
+    <ClInclude Include="steering\alignSteering.h">
+      <Filter>steering</Filter>
+    </ClInclude>
+    <ClInclude Include="steering\iAlignSteering.h">
+      <Filter>steering</Filter>
+    </ClInclude>
+    <ClInclude Include="steering\alignToMovementSteering.h">
+      <Filter>steering</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h" />
+    <ClInclude Include="steering\pursueSteering.h">
+      <Filter>steering</Filter>
+    </ClInclude>
+    <ClInclude Include="gameEntity.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="host">
+      <UniqueIdentifier>{87717a51-4516-4c06-a1de-c6b89a5c16e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sample">
+      <UniqueIdentifier>{dafee91e-18b1-4dd7-a488-726565484f1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="steering">
+      <UniqueIdentifier>{9c02aa73-4ffc-4874-b81c-bf5782d6d14a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sample\test.lua">
+      <Filter>sample</Filter>
+    </None>
+  </ItemGroup>
+</Project>
